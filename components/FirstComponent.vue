@@ -10,5 +10,19 @@
       Ut enim ad minim veniam, quis nostrud exercitation ullamco
       laboris nisi ut aliquip ex ea commodo consequat.
     </p>
+    <p>{{ num1 }}</p>
   </div>
 </template>
+
+<script>
+import { Component, Vue, Prop } from 'nuxt-property-decorator';
+
+export default @Component({
+  name: 'FirstComponent'
+})
+
+class FirstComponent extends Vue {
+  // @Prop({ type: Number }) num1;
+  @Prop() num1 = Number;
+}
+</script>

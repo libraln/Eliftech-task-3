@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>Home page</h1>
-    <FirstComponent />
+    <FirstComponent :num1="2" />
     <SecondComponent />
   </div>
 </template>

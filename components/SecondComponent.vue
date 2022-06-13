@@ -12,3 +12,15 @@
     </p>
   </div>
 </template>
+<script>
+import { Component, Vue } from 'nuxt-property-decorator';
+
+export default @Component({
+  name: 'SecondComponent'
+})
+
+class SecondComponent extends Vue {
+
+}
+
+</script>
