@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>Home page</h1>
-    <FirstComponent :num1="2" />
+    <FirstComponent :text="text" />
     <SecondComponent />
   </div>
 </template>
@@ -12,9 +12,11 @@ import FirstComponent from '~/components/FirstComponent';
 import SecondComponent from '~/components/SecondComponent';
 
 export default @Component({
-  name: 'indexPage',
+  name: 'IndexPage',
   components: { FirstComponent, SecondComponent }
 })
 
-class indexPage extends Vue {}
+class IndexPage extends Vue {
+  text= 'Duis aute irure dolor in reprehen derit involuptate velit esse cillum dolore eu fugiat nulla pariatur.'
+}
 </script>

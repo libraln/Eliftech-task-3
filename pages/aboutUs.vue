@@ -16,6 +16,6 @@ export default @Component({
   components: { ThirdComponent, FourthComponent }
 })
 
-class aboutUsPage extends Vue {
+class AboutUsPage extends Vue {
 }
 </script>

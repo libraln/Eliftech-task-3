@@ -10,7 +10,7 @@
       Ut enim ad minim veniam, quis nostrud exercitation ullamco
       laboris nisi ut aliquip ex ea commodo consequat.
     </p>
-    <p>{{ num1 }}</p>
+    <p>{{ text }}</p>
   </div>
 </template>
 
@@ -22,7 +22,6 @@ export default @Component({
 })
 
 class FirstComponent extends Vue {
-  // @Prop({ type: Number }) num1;
-  @Prop() num1 = Number;
+  @Prop({ type: String }) text;
 }
 </script>
