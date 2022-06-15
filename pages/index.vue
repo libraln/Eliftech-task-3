@@ -1,8 +1,8 @@
 <template>
   <div>
     <h1>Home page</h1>
-    <FirstComponent :text="text" />
-    <SecondComponent />
+    <first-component :text="text" />
+    <second-component />
   </div>
 </template>
 

@@ -1,8 +1,8 @@
 <template>
   <div>
     <h1>About Us</h1>
-    <ThirdComponent />
-    <FourthComponent />
+    <third-component />
+    <fourth-component />
   </div>
 </template>
 
